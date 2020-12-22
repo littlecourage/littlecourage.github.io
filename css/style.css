@@ -96,7 +96,7 @@ figure {
 
 .page-border > .top-border, .page-border > .right-border, .page-border > .bottom-border, .page-border > .left-border {
     padding: 11px;
-    background: #ccc;
+    background: #ffead0;
 }
 
 .page-border .bottom-border, .page-border .top-border {
@@ -331,9 +331,10 @@ section {
 
 #logo {
     float: left;
-    height: 71px;
     line-height: 66px;
     margin-right: 15px;
+    width: 150px;
+    height: 20px;
 }
 
 #logo h1, #logo h2 {
@@ -353,9 +354,10 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 50px;
     vertical-align: middle;
     margin-right: 15px;
+    margin-top: 10px;
 }
 
 #navigation-logo {
@@ -386,8 +388,10 @@ section {
     -moz-transition: all .3s linear;
     transition: all .3s linear;
     display: inline-block;
-    border-width: 3px;
-    border-style: solid;
+    border: 3px solid #6d6875;
+    color: #6d6875;
+    border-radius: 6px;
+    background-color: #f7f4ea;
 }
 
 /* Play Button */
@@ -718,7 +722,7 @@ a img:hover {
 /*------------------------------------------------------------------------------------------*/
 
 h1 {
-    padding: 20px 0;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -783,12 +787,16 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 170px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 
 #banner h1 {
     padding-top: 5%;
+}
+
+#banner .col-38 {
+    padding-left: 50px;
 }
 
 #banner .section-heading:before {
@@ -1396,8 +1404,7 @@ blockquote {
 .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top;
-    0;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -1457,7 +1464,7 @@ blockquote {
 
 .pricing-sub {
     font-style: italic;
-    color:#ccc;
+    color:#ffead0;
     margin:0 0 25px 0;
 }
 
@@ -1540,7 +1547,7 @@ blockquote {
 }
 
 #scrollUp:before {
-    background: #ccc;
+    background: #ffead0;
     font-family: "fontawesome";
     font-size: 2.4em;
     font-style: normal;
@@ -2329,4 +2336,22 @@ blockquote {
 
 
 
+/*-----------------My Additions-----------------*/
+.headshot {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 12px solid #F7F4EA;
+    margin-left: 100px;
+}
+
+.headshot img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: 18px solid #F5B4A1;
+}
 
