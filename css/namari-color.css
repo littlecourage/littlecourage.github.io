@@ -16,6 +16,7 @@
 
 body {
     background:#FFDCC8;
+    /* background: #fbe2d0; */
 }
 
 
@@ -131,7 +132,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Secondary Background and Text Colors */
 
 .secondary-color {
-    background-color:#f5f5f5;
+    background-color:#FFDCC8;
 }
 
 
@@ -226,7 +227,7 @@ body {
     font-family: 'Montserrat', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#6d6875;
+    color:#000;
 }
 
 /* Testimonial */
@@ -269,7 +270,7 @@ h4 {
     font-family: 'Montserrat', sans-serif, Arial, Helvetica;
     font-size: 18px; 
     font-weight:400;
-    color:#111;
+    color:#6d6875;
 }
 
 h5 {

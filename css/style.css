@@ -1439,12 +1439,13 @@ blockquote {
 /* --------- 6.7 Pricing Table ---------- */
 
 .pricing-block-content {
-    background: #fff;
+    background:#FFDCC8;
     padding: 25px 0 25px 0;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
     transition: all 0.2s ease-in-out 0s;
     position: relative;
-    border: 10px solid #fff;
+    border: 6px solid #FFEAD0;
+    border-radius: 4px;
 }
 
 
@@ -1466,19 +1467,20 @@ blockquote {
     font-size:17px;
     text-transform:uppercase;
     padding-bottom:0;
+    color: #6d6875;
 }
 
 .pricing-sub {
     font-style: italic;
-    color:#ffead0;
+    color:#6d6875;
     margin:0 0 25px 0;
 }
 
 /*Price*/
 
 .pricing {
-    background: #f5f5f5;
-    padding: 25px;
+    background: #FFDCC8;
+    padding: 5px;
     position: relative;
 }
 
@@ -1503,6 +1505,37 @@ blockquote {
     margin:0;
 }
 
+#contact .button {
+    font-family: 'Lobster', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color:#f7f4ea;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    /* background-color: #ffb4a2; */
+    background-color: #D2B356;
+    border-color: #f7f4ea;
+    border-style: dotted;
+    margin: 20px 40px;
+    transform: rotate(-10deg);
+    text-shadow: 1px 1px 0px  #e5989b, 
+                 2px 2px 0px #b5838d, 
+                 3px 3px 0px #6d6875;
+}
+
+#contact .button:hover  {
+    border-color:#d2b356;
+    background-color: #FCEAD0;
+}
+
+#contact .contact-links {
+    display: flex;
+    justify-content: center;
+    
+}
 
 
 /*------------------------------------------------------------------------------------------*/
@@ -1559,7 +1592,7 @@ blockquote {
     font-style: normal;
     font-weight: normal;
     text-align: center;
-    color: #fff;
+    color: #d2b356;
     width: 45px;
     height: 45px;
     display: inline-block;
@@ -2368,4 +2401,9 @@ blockquote {
     color: #d2b356;
 }
 
+.filler {
+    height: 175px;
+    width: 400px;
+    
+}
 
