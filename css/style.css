@@ -333,7 +333,7 @@ section {
     float: left;
     line-height: 66px;
     /* margin-right: 15px; */
-    width: 205px;
+    width: 250px;
     height: 20px;
 }
 
@@ -2367,4 +2367,5 @@ blockquote {
     padding: 20px 0px;
     color: #d2b356;
 }
+
 
