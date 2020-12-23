@@ -333,7 +333,7 @@ section {
     float: left;
     line-height: 66px;
     /* margin-right: 15px; */
-    width: 105px;
+    width: 205px;
     height: 20px;
 }
 
@@ -771,9 +771,11 @@ h6 {
 }
 
 .section-heading h3 {
-    font-size: 14px;
+    font-family: 'Montserrat';
+    font-size: 16px;
     font-weight: bold;
-    color: #ccc;
+    font-style: italic;
+    color: #6D6875;
     letter-spacing: 2px;
     padding-bottom: 0;
 }
@@ -1398,11 +1400,11 @@ blockquote {
 
 #clients img {
     display: inline-block;
-    padding: 15px 25px;
+    padding: 35px 0px;
 }
 
 .client-overlay {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(247, 244, 234, 0.6);
     position: absolute;
     top: 0;
     right: 0;
@@ -1415,6 +1417,9 @@ blockquote {
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #clients a:hover .client-overlay {
@@ -1422,12 +1427,13 @@ blockquote {
 }
 
 .client-overlay span {
-    position: absolute;
+    /* position: absolute;
     top: 48%;
-    left: 0;
+    left: 0; */
     width: 100%;
     text-align: center;
     display: inline-block;
+    color: #6d6875;
 }
 
 /* --------- 6.7 Pricing Table ---------- */
@@ -2353,5 +2359,12 @@ blockquote {
     width: 100%;
     height: 100%;
     border: 18px solid #F5B4A1;
+}
+
+.iconify {
+    width: 100px;
+    height: 100px;
+    padding: 20px 0px;
+    color: #d2b356;
 }
 

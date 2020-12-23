@@ -35,6 +35,10 @@ a:hover, #header.nav-solid nav a:hover {
     color:#d2b356;
 }
 
+.icon { 
+   color:#d2b356; 
+}
+
 /* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
@@ -76,7 +80,9 @@ a:hover, #header.nav-solid nav a:hover {
     border-color: #d2b356;
 }    
 
-
+#header span {
+    color: #d2b356;
+}
 
 /*------------------------------------------------------------------------------------------*/
 /* 3. Primary and Secondary Colors */
@@ -86,7 +92,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Primary Background and Text Colors */
 
 .primary-color, .featured .pricing {
-    background-color:#d2b356;
+    background-color: #d2b356;
 }
 
 .primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
@@ -100,8 +106,11 @@ a:hover, #header.nav-solid nav a:hover {
     width:30px;
     height:5px;
     margin-top:30px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
     /* margin-bottom: 30px; */
+}
+#banner .section-heading h2:after {
+    margin-left: -100px;
 }
 
 .text-center .section-heading h2:after {
@@ -199,17 +208,21 @@ body {
 /* Section Title and Subtitle */
 
 .section-title {
-    font-family: 'Montserrat', sans-serif, Arial, Helvetica;
-    font-size: 34px; 
+    font-family: 'Lobster', sans-serif, Arial, Helvetica;
+    font-size: 40px; 
     font-weight:700;
-    color:#111;
+    color:#ffb4a2;
+    text-shadow: -1px -1px 0 #f7f4ea, 
+                 1px -1px 0 #f7f4ea, 
+                 -1px 1px 0 #f7f4ea, 
+                 1px 1px 0 #f7f4ea;
 }
 
 .section-subtitle {
     font-family: 'Montserrat', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#9c9c9c;
+    color:#6d6875;
 }
 
 /* Testimonial */
