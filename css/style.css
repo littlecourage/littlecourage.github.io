@@ -1515,12 +1515,13 @@ blockquote {
     display: flex;
     align-items: center;
     border-radius: 50%;
-    /* background-color: #ffb4a2; */
-    background-color: #D2B356;
+    background-color: #ffb4a2;
+    /* background-color: #D2B356; */
     border-color: #f7f4ea;
-    border-style: dotted;
+    border-style: solid;
+    border-width: 8px;
     margin: 20px 40px;
-    transform: rotate(-10deg);
+    
     text-shadow: 1px 1px 0px  #e5989b, 
                  2px 2px 0px #b5838d, 
                  3px 3px 0px #6d6875;
@@ -2402,7 +2403,7 @@ blockquote {
 }
 
 .filler {
-    height: 175px;
+    height: 275px;
     width: 400px;
     
 }
