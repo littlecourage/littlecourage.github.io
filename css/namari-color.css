@@ -21,7 +21,7 @@ body {
 
 /* Default Link Color */
 
-a, .la-ball-triangle-path {
+a {
     color:#d2b356;
 }
 
@@ -54,10 +54,13 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Transparent Navigation Color on a Banner */
 
-#header nav a, #header i {
+#header nav a {
     color:#111;
 }
 
+#header i {
+     color: #6d6875;
+}
 
 /* Navigation Colors when the Navigation is sticky and solid */ 
 
@@ -309,12 +312,17 @@ h6 {
     font-size:34px;
     color: #6d6875;
     border-radius: 100%;
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    transform: rotate(-10deg);
 }
+
 
 
 /* Button Color */
@@ -330,6 +338,14 @@ h6 {
                  2px 2px 0px #b5838d, 
                  3px 3px 0px #6d6875;
 }
+
+#banner .button h4 {
+    text-shadow: none;
+    text-align: center;
+    font-weight: 700;
+    border: red 1px solid;
+}
+
 
 /* Button Hover Color */
 

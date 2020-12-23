@@ -332,8 +332,8 @@ section {
 #logo {
     float: left;
     line-height: 66px;
-    margin-right: 15px;
-    width: 150px;
+    /* margin-right: 15px; */
+    width: 105px;
     height: 20px;
 }
 
@@ -511,7 +511,7 @@ section {
 }
 
 #header.nav-solid {
-    background: #fff;
+    background: #FFDCC8;
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
     position: fixed !important;
     left:0;
@@ -519,7 +519,7 @@ section {
 
 #header.nav-solid nav a {
     border-bottom: 3px solid;
-    border-color: #fff;
+    border-color: #FFDCC8;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -1570,7 +1570,7 @@ blockquote {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff; /* change if the mask should have another color then white */
+    background-color: #F7F4EA; /* change if the mask should have another color then white */
     z-index: 99999; /* makes sure it stays on top */
 }
 
@@ -1601,7 +1601,7 @@ blockquote {
 .la-ball-triangle-path {
     display: block;
     font-size: 0;
-    color: #fff;
+    color: #F7F4EA;
 }
 
 .la-ball-triangle-path.la-dark {
@@ -1624,8 +1624,8 @@ blockquote {
     position: absolute;
     top: 0;
     left: 0;
-    width: 10px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
 }
 
