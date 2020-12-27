@@ -317,6 +317,10 @@ section {
     text-align: right;
 }
 
+#header .logo {
+    text-align: left;
+}
+
 #header ul {
     text-align: center;
 }
@@ -1670,24 +1674,24 @@ blockquote {
 }
 
 .la-ball-triangle-path > div:nth-child(1) {
-    -webkit-animation: ball-triangle-path-ball-one 2s 0s ease-in-out infinite;
-    -moz-animation: ball-triangle-path-ball-one 2s 0s ease-in-out infinite;
-    -o-animation: ball-triangle-path-ball-one 2s 0s ease-in-out infinite;
-    animation: ball-triangle-path-ball-one 2s 0s ease-in-out infinite;
+    -webkit-animation: ball-triangle-path-ball-one 5s 0s ease-in-out infinite;
+    -moz-animation: ball-triangle-path-ball-one 5s 0s ease-in-out infinite;
+    -o-animation: ball-triangle-path-ball-one 5s 0s ease-in-out infinite;
+    animation: ball-triangle-path-ball-one 5s 0s ease-in-out infinite;
 }
 
 .la-ball-triangle-path > div:nth-child(2) {
-    -webkit-animation: ball-triangle-path-ball-two 2s 0s ease-in-out infinite;
-    -moz-animation: ball-triangle-path-ball-two 2s 0s ease-in-out infinite;
-    -o-animation: ball-triangle-path-ball-two 2s 0s ease-in-out infinite;
-    animation: ball-triangle-path-ball-two 2s 0s ease-in-out infinite;
+    -webkit-animation: ball-triangle-path-ball-two 5s 0s ease-in-out infinite;
+    -moz-animation: ball-triangle-path-ball-two 5s 0s ease-in-out infinite;
+    -o-animation: ball-triangle-path-ball-two 5s 0s ease-in-out infinite;
+    animation: ball-triangle-path-ball-two 5s 0s ease-in-out infinite;
 }
 
 .la-ball-triangle-path > div:nth-child(3) {
-    -webkit-animation: ball-triangle-path-ball-tree 2s 0s ease-in-out infinite;
-    -moz-animation: ball-triangle-path-ball-tree 2s 0s ease-in-out infinite;
-    -o-animation: ball-triangle-path-ball-tree 2s 0s ease-in-out infinite;
-    animation: ball-triangle-path-ball-tree 2s 0s ease-in-out infinite;
+    -webkit-animation: ball-triangle-path-ball-tree 5s 0s ease-in-out infinite;
+    -moz-animation: ball-triangle-path-ball-tree 5s 0s ease-in-out infinite;
+    -o-animation: ball-triangle-path-ball-tree 5s 0s ease-in-out infinite;
+    animation: ball-triangle-path-ball-tree 5s 0s ease-in-out infinite;
 }
 
 .la-ball-triangle-path.la-sm {
